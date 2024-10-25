@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('/api/placeholder/100/100');
+            font-family: "Comic Sans MS", cursive;
+            margin: 20px;
+            color: purple;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffccff;
+            border: 5px groove #ff00ff;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            background: linear-gradient(to right, #ff0000, #ff9900, #ffff00, #33cc33, #3366ff, #9933ff);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .construction {
+            text-align: center;
+            margin: 20px 0;
+            animation: blink 1s infinite;
+        }
+        
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        
+        .menu {
+            background-color: #000000;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .menu a {
+            color: #00ff00;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        
+        .menu a:hover {
+            color: #ffff00;
+            text-decoration: underline;
+        }
+        
+        .content {
+            display: table;
+            width: 100%;
+        }
+        
+        .main {
+            display: table-cell;
+            padding-right: 20px;
+            width: 70%;
+        }
+        
+        .sidebar {
+            display: table-cell;
+            width: 30%;
+            background-color: #ccffcc;
+            padding: 10px;
+            border: 3px dashed #009900;
+        }
+        
+        .guestbook {
+            margin-top: 20px;
+            text-align: center;
+            border: 2px solid #0000ff;
+            padding: 10px;
+            background-color: #ccccff;
+        }
+        
+        .counter {
+            text-align: center;
+            margin: 20px 0;
+            font-family: "Courier New", monospace;
+            background-color: #000000;
+            color: #00ff00;
+            padding: 5px;
+            width: 100px;
+            margin: 20px auto;
+        }
+        
+        marquee {
+            background-color: #ffff00;
+            color: #ff0000;
+            padding: 5px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌟 Welcome to My Cool Homepage! 🌟</h1>
+            <p>Best viewed in Netscape Navigator at 800x600</p>
+        </div>
+
+        <div class="construction">
+            🚧 UNDER CONSTRUCTION 🚧
+        </div>
+
+        <div class="menu">
+            <a href="#home">Home</a> |
+            <a href="#about">About Me</a> |
+            <a href="#links">Cool Links</a> |
+            <a href="#guestbook">Guestbook</a>
+        </div>
+
+        <marquee scrollamount="5">Welcome to my website! Thanks for visiting! Don't forget to sign my guestbook!</marquee>
+
+        <div class="content">
+            <div class="main">
+                <h2>📝 About Me</h2>
+                <p>Hey there! Welcome to my corner of the World Wide Web! I'm totally stoked you found my homepage!</p>
+                
+                <h2>🌟 My Interests</h2>
+                <ul>
+                    <li>Surfing the World Wide Web</li>
+                    <li>Playing DOOM</li>
+                    <li>Checking my ICQ messages</li>
+                    <li>Downloading MIDI files</li>
+                </ul>
+
+                <h2>🔥 Hot Links</h2>
+                <ul>
+                    <li><a href="#">My AOL Profile</a></li>
+                    <li><a href="#">My GeoCities Neighbors</a></li>
+                    <li><a href="#">Cool MIDI Files</a></li>
+                    <li><a href="#">Best Web Rings</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar">
+                <h3>📢 Updates</h3>
+                <p><blink>New!</blink> Added more GIFs!</p>
+                <p>Last updated: 10/25/24</p>
+                
+                <img src="/api/placeholder/88/31" alt="Now Playing MIDI" />
+                
+                <div class="counter">
+                    Visitors:<br>
+                    000042
+                </div>
+            </div>
+        </div>
+
+        <div class="guestbook">
+            <h2>📝 Sign My Guestbook!</h2>
+            <form>
+                <p>Name: <input type="text" /></p>
+                <p>Message: <textarea></textarea></p>
+                <button type="button">Sign!</button>
+            </form>
+        </div>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <img src="/api/placeholder/88/31" alt="Best viewed with Netscape" />
+            <img src="/api/placeholder/88/31" alt="HTML 3.2 Valid!" />
+        </div>
+    </div>
+</body>
+</html>
